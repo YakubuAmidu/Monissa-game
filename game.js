@@ -1,9 +1,7 @@
-var buttonColors = ['red', 'yellow', 'green'];
-var gamePattern = [];
+var buttonColours = ['red', 'blue', 'green', 'yellow'];
 
-function nextSequence() {
-  var randomNumber = Math.floor(Math.random() * 3);
-  var randomChosenColor = randomNumber;
-  randomChosenColor.buttonColors;
-  randomChosenColor.push(gamePattern);
-}
+var gamePattern = [];
+var userClickedPattern = [];
+
+var started = false;
+var level = 0;
