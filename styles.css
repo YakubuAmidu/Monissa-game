@@ -1,0 +1,19 @@
+body {
+  text-align: center;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+#level-title {
+  font-size: 40px;
+}
+
+.container {
+}
+
+.btn {
+  display: inline-block;
+  background-color: #fff;
+  padding: 90px;
+  margin: 10px;
+}
